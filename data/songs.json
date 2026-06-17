@@ -1,0 +1,56 @@
+{
+  "songs": [
+    {
+      "title": "Fairytale",
+      "artist": "Livingston",
+      "album": "A Hometown Odyssey",
+      "release_date": "2021-05-01",
+      "genre": "Pop",
+      "duration": "3:45",
+      "streaming_links": {
+        "spotify": "https://open.spotify.com/track/1",
+        "apple_music": "https://music.apple.com/track/1",
+        "youtube": "https://www.youtube.com/watch?v=1"
+      }
+    },
+    {
+      "title": "Half Life",
+      "artist": "Livingston",
+      "album": "A Hometown Odyssey",
+      "release_date": "2021-05-01",
+      "genre": "Pop",
+      "duration": "4:00",
+      "streaming_links": {
+        "spotify": "https://open.spotify.com/track/2",
+        "apple_music": "https://music.apple.com/track/2",
+        "youtube": "https://www.youtube.com/watch?v=2"
+      }
+    },
+    {
+      "title": "Last Man Standing",
+      "artist": "Livingston",
+      "album": "A Hometown Odyssey",
+      "release_date": "2021-05-01",
+      "genre": "Pop",
+      "duration": "3:30",
+      "streaming_links": {
+        "spotify": "https://open.spotify.com/track/3",
+        "apple_music": "https://music.apple.com/track/3",
+        "youtube": "https://www.youtube.com/watch?v=3"
+      }
+    },
+    {
+      "title": "Say The Word",
+      "artist": "Livingston",
+      "album": "A Hometown Odyssey",
+      "release_date": "2021-05-01",
+      "genre": "Pop",
+      "duration": "3:50",
+      "streaming_links": {
+        "spotify": "https://open.spotify.com/track/4",
+        "apple_music": "https://music.apple.com/track/4",
+        "youtube": "https://www.youtube.com/watch?v=4"
+      }
+    }
+  ]
+}

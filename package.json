@@ -1,0 +1,23 @@
+{
+  "name": "rank-songs-api",
+  "version": "1.0.0",
+  "description": "A web application for ranking and exploring the music of Livingston, a Texas pop artist.",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build": "echo 'Build step not defined'",
+    "test": "echo 'Test step not defined'"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "music",
+    "ranking",
+    "artist",
+    "Livingston"
+  ]
+}
