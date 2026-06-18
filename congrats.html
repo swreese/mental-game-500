@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <title>Congratulations — The Mental Game</title>
+
+  <style>
+    :root{
+      --bg:#071226;
+      --card:#0e2334;
+      --accent:#7dd3fc;
+      --muted:rgba(255,255,255,0.92);
+    }
+
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+      background:linear-gradient(180deg,var(--bg),#071824);
+      color:var(--muted);
+    }
+
+    .wrap{
+      max-width:900px;
+      margin:64px auto;
+      padding:32px;
+    }
+
+    .card{
+      position:relative;
+      background:rgba(255,255,255,0.03);
+      border:1px solid rgba(255,255,255,0.08);
+      padding:32px;
+      border-radius:12px;
+      box-shadow:0 20px 60px rgba(0,0,0,0.6);
+    }
+
+    .page-logo{
+      position:absolute;
+      top:22px;
+      right:22px;
+      width:105px;
+      height:auto;
+    }
+
+    h1{
+      text-align:center;
+      margin:0 0 18px;
+      font-size:2.3rem;
+    }
+
+    .lead{
+      text-align:justify;
+      line-height:1.6;
+      margin:0 auto 30px;
+      max-width:680px;
+      font-size:1.05rem;
+    }
+    .lead-center{
+  display:block;
+  text-align:center;
+  font-weight:700;
+  margin:18px 0;
+}
+
+    label{
+      display:block;
+      margin-top:16px;
+      font-weight:700;
+      font-size:1.05rem;
+    }
+
+    input{
+      width:100%;
+      padding:17px 16px;
+      margin-top:8px;
+      border-radius:9px;
+      border:1px solid rgba(255,255,255,0.2);
+      background:#071824;
+      color:white;
+      font-size:1.15rem;
+    }
+
+    input::placeholder{
+      font-size:1rem;
+      color:rgba(255,255,255,0.5);
+    }
+
+    button{
+      margin-top:22px;
+      padding:13px 18px;
+      border:0;
+      border-radius:10px;
+      font-weight:800;
+      background:linear-gradient(90deg,var(--accent),#60a5fa);
+      color:#042433;
+      cursor:pointer;
+      font-size:1rem;
+    }
+
+    .certificate{
+  display:none;
+  position:relative;
+  margin-top:34px;
+  padding:30px 38px 20px;
+  border:3px solid #071226;
+  border-radius:12px;
+  text-align:center;
+  background:#fff;
+  color:#071226;
+}
+
+    .cert-logo{
+  position:absolute;
+  top:18px;
+  left:18px;
+  width:115px;
+  height:auto;
+}
+
+    .certificate h2{
+  font-size:2rem;
+  margin:20px 0 8px;
+}
+
+.name{
+  font-size:2rem;
+  font-weight:900;
+  margin:10px 0;
+}
+
+.program-title{
+  font-size:1.35rem;
+  font-weight:800;
+  margin:10px 0;
+}
+
+.small{
+  font-size:1rem;
+  margin:4px 0;
+}
+
+.signature{
+  margin-top:35px;
+  font-size:0.95rem;
+  line-height:1.3;
+}
+
+.signature-image{
+  display:block;
+  width:250px;
+  max-width:80%;
+  height:auto;
+  margin:0 auto -8px auto;
+}
+
+.signature-line{
+  width:250px;
+  max-width:80%;
+  margin:0 auto 8px auto;
+  border-top:1.5px solid #071226;
+}
+
+    footer{
+      margin-top:22px;
+      text-align:center;
+      color:rgba(255,255,255,0.48);
+      font-size:0.88rem;
+    }
+
+    @media(max-width:700px){
+      .wrap{margin:28px 16px;padding:20px}
+      .card{padding:28px 20px}
+      .page-logo{
+        position:static;
+        display:block;
+        margin:0 auto 18px;
+        width:120px;
+      }
+      .cert-logo{
+        position:static;
+        display:block;
+        margin:0 auto 18px;
+        width:80px;
+      }
+      .certificate h2{margin-top:8px}
+    }
+
+   @media print{
+
+  @page{
+    size: landscape;
+    margin: 0.5in;
+  }
+
+  body{
+    background:#fff;
+    color:#000;
+  }
+
+  .lead,
+  form,
+  footer,
+  .page-logo,
+  h1{
+    display:none;
+  }
+
+  .wrap{
+    margin:0;
+    padding:0;
+    max-width:none;
+  }
+
+  .card{
+    box-shadow:none;
+    border:0;
+    padding:0;
+    background:#fff;
+  }
+
+  .certificate{
+  display:block;
+  margin-top:15px;
+  padding:30px 40px;
+  border:3px solid #071226;
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+
+  height:6.75in;
+}
+
+  .certificate button{
+    display:none;
+  }
+
+  .signature{
+    margin-top:12px;
+    line-height:1.25;
+  }
+
+  .signature-image{
+    width:230px;
+    margin:0 auto -10px auto;
+  }
+
+  .signature-line{
+    margin:0 auto 4px auto;
+  }
+}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="card">
+    
+
+      <h1>Congratulations!</h1>
+
+      <p class="lead">
+  If you are here, you finished the challenge! That means you stayed with the process long enough to see what consistency can do. Not many people can wake up tomorrow and do what you just did.
+
+  <span class="lead-center">Take a moment to celebrate that.</span>
+
+  Then take some time to think about where else this principle can be applied. The challenge was never really about push-ups. It was about learning how incremental growth works and proving to yourself that meaningful change can occur when a process is followed consistently over time.
+
+  <span class="lead-center">You did it.</span>
+
+  Complete the form below to generate and print your Mental Game completion certificate.
+</p>
+
+      <form id="certificateForm">
+        <label for="name">Your Name</label>
+        <input id="name" required placeholder="Example: Sam Sample" />
+
+        <label for="total">Final Push-Up Total</label>
+        <input id="total" required placeholder="Example: 502" />
+
+        <label for="date">Completion Date</label>
+        <input id="date" type="date" required />
+
+        <button type="submit">Generate Certificate</button>
+      </form>
+
+      <div id="certificate" class="certificate">
+        <img src="mg-logo-black.png" alt="The Mental Game Logo" class="cert-logo">
+
+        <h2>Certificate of Completion</h2>
+
+        <p>This certifies that</p>
+
+        <div id="certName" class="name"></div>
+
+        <p>has successfully completed</p>
+
+        <div class="program-title">
+          The Mental Game: 500 Push-Ups in 1 Hour
+        </div>
+
+        <p class="small">
+          Final Total: <strong><span id="certTotal"></span> Push-Ups</strong>
+        </p>
+
+        <p class="small">
+          Completed on <span id="certDate"></span>
+        </p>
+
+        <div class="signature">
+
+  <img
+    src="signature.png"
+    alt="Steven Reese Signature"
+    class="signature-image"
+  >
+
+  <div class="signature-line"></div>
+
+  <strong>Steven Reese</strong><br>
+  Author, The Mental Game<br>
+
+</div>
+
+        <button onclick="window.print()">Print / Save Certificate</button>
+      </div>
+    </div>
+
+    <footer>
+      <small>&copy; 2026 The Mental Game</small>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("certificateForm").addEventListener("submit", function(e){
+      e.preventDefault();
+
+      const name = document.getElementById("name").value.trim();
+      const total = document.getElementById("total").value.trim();
+      const date = document.getElementById("date").value;
+
+      document.getElementById("certName").textContent = name;
+      document.getElementById("certTotal").textContent = total;
+      document.getElementById("certDate").textContent = new Date(date + "T00:00:00").toLocaleDateString();
+
+      document.getElementById("certificate").style.display = "block";
+      document.getElementById("certificate").scrollIntoView({behavior:"smooth"});
+    });
+  </script>
+</body>
+</html>
