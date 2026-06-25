@@ -7,27 +7,73 @@
   <title>The Mental Game — Bonus Downloads</title>
 
   <style>
-    body{
-      font-family:system-ui,Inter,Arial;
-      max-width:820px;
-      margin:36px auto;
-      padding:0 18px;
-      color:#072033;
-      background:#fbfdff;
+    :root{
+      --bg:#071226;
+      --card:#ffffff;
+      --accent:#0ea5e9;
+      --text:#072033;
+      --muted:#475569;
+      --soft:#eef8ff;
     }
 
-    h1{margin:0 0 8px}
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      font-family:system-ui,Inter,Arial;
+      color:var(--text);
+      background:linear-gradient(180deg,#071226,#0b2133);
+      padding:36px 18px;
+    }
+
+    .wrap{
+      max-width:860px;
+      margin:0 auto;
+    }
+
+    .card{
+      background:var(--card);
+      border-radius:16px;
+      padding:30px;
+      box-shadow:0 20px 60px rgba(0,0,0,.25);
+    }
+
+    .logo{
+      display:block;
+      width:105px;
+      max-width:40%;
+      margin:0 auto 18px;
+    }
+
+    h1{
+      margin:0 0 10px;
+      text-align:center;
+      font-size:1.85rem;
+      color:var(--text);
+    }
+
+    h2{
+      margin:28px 0 12px;
+      font-size:1.25rem;
+      color:var(--text);
+    }
 
     p{
       line-height:1.6;
       color:#0b2b3f;
     }
 
+    .intro{
+      text-align:center;
+      max-width:680px;
+      margin:0 auto 24px;
+    }
+
     .links{
-      margin-top:18px;
+      margin-top:12px;
       display:flex;
       flex-direction:column;
-      gap:10px;
+      gap:12px;
     }
 
     a.file{
@@ -35,74 +81,106 @@
       padding:10px 12px;
       border-radius:8px;
       background:#fff;
-      border:1px solid rgba(6,21,33,0.06);
+      border:1px solid rgba(6,21,33,0.08);
       text-decoration:none;
-      color:#0ea5e9;
+      color:var(--accent);
       font-weight:700;
     }
 
+    a.file:hover{
+      background:#f8fbff;
+    }
+
+    .file-group{
+      background:#fff;
+      border:1px solid rgba(6,21,33,0.08);
+      border-radius:10px;
+      padding:16px;
+    }
+
+    .file-group .file{
+      display:inline-block;
+      margin-right:10px;
+      margin-top:6px;
+    }
+
+    .resource-note{
+      color:#64748b;
+      font-size:.92rem;
+    }
+
+    .section{
+      margin-top:26px;
+      padding-top:6px;
+    }
+
     .settings{
-      margin-top:22px;
-      background:rgba(14,165,233,0.05);
-      padding:14px;
-      border-radius:8px;
-      border:1px solid rgba(14,165,233,0.08);
+      margin-top:12px;
+      background:rgba(14,165,233,0.06);
+      padding:16px;
+      border-radius:10px;
+      border:1px solid rgba(14,165,233,0.12);
       font-weight:600;
+      line-height:1.55;
     }
 
     .author-notes{
       margin-top:34px;
-      padding:22px;
-      border-radius:10px;
-      background:#eef8ff;
-      border-left:6px solid #0ea5e9;
-      box-shadow:0 4px 14px rgba(0,0,0,.05);
+      padding:24px;
+      border-radius:12px;
+      background:var(--soft);
+      border-left:6px solid var(--accent);
+      box-shadow:0 4px 14px rgba(0,0,0,.06);
     }
 
     .author-notes h2{
       margin:0 0 12px;
-      color:#072033;
-      font-size:1.3rem;
+      font-size:1.35rem;
     }
 
     .author-notes p{
       margin:0 0 16px;
-      color:#0b2b3f;
     }
 
     .author-button{
       display:inline-block;
       padding:12px 16px;
       border-radius:8px;
-      background:#0ea5e9;
+      background:var(--accent);
       color:#fff;
       text-decoration:none;
       font-weight:700;
     }
 
     .author-button:hover{
-  background:#0284c7;
-}
+      background:#0284c7;
+    }
 
-.file-group{
-  background:#fff;
-  border:1px solid rgba(6,21,33,0.06);
-  border-radius:8px;
-  padding:14px;
-}
+    .closing{
+      margin-top:32px;
+      padding-top:20px;
+      border-top:1px solid rgba(6,21,33,0.08);
+      text-align:center;
+      color:var(--muted);
+      font-size:.98rem;
+      line-height:1.6;
+    }
 
-.file-group .file{
-  display:inline-block;
-  margin-right:10px;
-  margin-top:6px;
-}
+    .closing strong{
+      color:var(--text);
+    }
 
-.footer-note{
-  margin-top:24px;
-  color:#475569;
-  font-size:.95rem;
-  text-align:center;
-}
+    @media(max-width:700px){
+      body{padding:24px 14px}
+      .card{padding:24px 18px}
+      h1{font-size:1.55rem}
+      .file-group .file{
+        display:block;
+        margin-right:0;
+        margin-bottom:8px;
+        text-align:center;
+      }
+    }
   </style>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BCNJRNH349"></script>
@@ -115,85 +193,125 @@
 </head>
 
 <body>
+  <div class="wrap">
+    <main class="card">
 
-  <h1>The Mental Game — Bonus Downloads</h1>
+      <img src="mg-logo-black.png" alt="The Mental Game Logo" class="logo">
 
-  <p>
-    Thank you for purchasing. This page is intended for readers of
-    <em>The Mental Game</em>. Please do not share this page publicly.
-  </p>
+      <h1>The Mental Game — Bonus Downloads</h1>
 
-  <nav class="links" aria-label="Downloads">
+      <p class="intro">
+        Thank you for purchasing. This page is intended for readers of
+        <em>The Mental Game</em>. Please do not share this page publicly.
+      </p>
 
-  <div class="file-group">
+      <section class="section">
+        <h2>Downloads</h2>
 
-    <strong style="font-size:1.05rem;">Printable Tracking Sheet</strong><br>
+        <nav class="links" aria-label="Downloads">
 
-    <span style="color:#64748b;font-size:.92rem;">
-      Print as many copies as you need.
-    </span>
+          <div class="file-group">
+            <strong style="font-size:1.05rem;">Printable Tracking Sheet</strong><br>
 
-    <br><br>
+            <span class="resource-note">
+              Print as many copies as you need.
+            </span>
 
-    <a
-      class="file"
-      href="mental-game-printable-tracker.pdf"
-      target="_blank"
-      rel="noopener">
-      View PDF
-    </a>
+            <br><br>
 
-    <a
-      class="file"
-      href="mental-game-printable-tracker.pdf"
-      download>
-      Download PDF
-    </a>
+            <a
+              class="file"
+              href="mental-game-printable-tracker.pdf"
+              target="_blank"
+              rel="noopener">
+              View PDF
+            </a>
 
+            <a
+              class="file"
+              href="mental-game-printable-tracker.pdf"
+              download>
+              Download PDF
+            </a>
+          </div>
+
+          <a
+            class="file"
+            href="https://docs.google.com/spreadsheets/d/1gyA4p8bzfzj1vpdD1UFG19A35NPyIiypi_9PXAdfJjw/copy"
+            target="_blank"
+            rel="noopener">
+            Make Your Own Copy of the Digital Tracking Sheet
+          </a>
+
+        </nav>
+      </section>
+
+      <section class="section">
+        <h2>Timer Apps</h2>
+
+        <nav class="links" aria-label="Timer Apps">
+
+          <a
+            class="file"
+            href="https://apps.apple.com/app/id1633488334"
+            target="_blank"
+            rel="noopener">
+            Download: Interval Timer (iOS)
+          </a>
+
+          <a
+            class="file"
+            href="https://play.google.com/store/apps/details?id=com.evgeniysharafan.tabatatimer&amp;hl=en&amp;gl=US"
+            target="_blank"
+            rel="noopener">
+            Download: Interval Timer (Android)
+          </a>
+
+        </nav>
+      </section>
+
+      <section class="section">
+        <h2>Recommended Timer Settings</h2>
+
+        <div class="settings">
+          Prepare: 20 seconds<br>
+          Work: 1:00<br>
+          Rest: 0:00<br>
+          Rounds: 60<br>
+          Cycles: 1<br>
+          Rest Between Cycles: 0:00
+        </div>
+      </section>
+
+      <div class="author-notes">
+        <h2>From My Notebook</h2>
+
+        <p>
+          Curious what the process actually looked like? Here's an inside look at some of my original handwritten tracking sheets from when I completed the challenge.
+        </p>
+
+        <p>
+          You'll see the progression, the day I crossed <strong>500 push-ups (2/16/23)</strong>, and even a day where I burned out and quit <strong>(3/15/23)</strong>. I'm just a regular guy who committed to the process. I hope these pages encourage you to embrace humble beginnings, trust the process, and see that incremental growth is possible for you too.
+        </p>
+
+        <a
+          class="author-button"
+          href="stevens-beginner-tracking-sheets.pdf"
+          target="_blank"
+          rel="noopener">
+          View My Original Tracking Sheets
+        </a>
+      </div>
+
+      <div class="closing">
+        <strong>Remember...</strong><br>
+        The goal was never perfect workouts.<br>
+        It was becoming someone who keeps showing up.<br><br>
+        Finish the hour.<br>
+        — Steven Reese
+      </div>
+
+    </main>
   </div>
-
-    <a class="file" href="https://docs.google.com/spreadsheets/d/1gyA4p8bzfzj1vpdD1UFG19A35NPyIiypi_9PXAdfJjw/copy" target="_blank" rel="noopener">
-      Make Your Own Copy of the Digital Tracking Sheet
-    </a>
-
-    <a class="file" href="https://apps.apple.com/app/id1633488334" target="_blank" rel="noopener">
-      Download: Interval Timer (iOS)
-    </a>
-
-    <a class="file" href="https://play.google.com/store/apps/details?id=com.evgeniysharafan.tabatatimer&amp;hl=en&amp;gl=US" target="_blank" rel="noopener">
-      Download: Interval Timer (Android)
-    </a>
-  </nav>
-
-  <div class="settings">
-    <strong>Recommended Timer Settings</strong><br><br>
-    Prepare: 20 seconds<br>
-    Work: 1:00<br>
-    Rest: 0:00<br>
-    Rounds: 60<br>
-    Cycles: 1<br>
-    Rest Between Cycles: 0:00
-  </div>
-
-  <div class="author-notes">
-    <h2>From My Notebook</h2>
-
-    <p>
-      Curious what the process actually looked like? Here's an inside look at some of my original handwritten tracking sheets from when I completed the challenge.
-    </p>
-
-    <p>
-      You'll see the progression, the day I crossed <strong>500 push-ups (2/16/23)</strong>, and even a day where I burned out and quit <strong>(3/15/23)</strong>. I'm just a regular guy who committed to the process. I hope these pages encourage you to embrace humble beginnings, trust the process, and see that incremental growth is possible for you too.
-    </p>
-
-    <a class="author-button" href="stevens-beginner-tracking-sheets.pdf" target="_blank" rel="noopener">
-      View My Original Tracking Sheets
-    </a>
-  </div>
-
-  <p class="footer-note">
-    Finish the hour.
-  </p>
-
 </body>
 </html>
