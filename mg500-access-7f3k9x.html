@@ -81,15 +81,28 @@
     }
 
     .author-button:hover{
-      background:#0284c7;
-    }
+  background:#0284c7;
+}
 
-    .footer-note{
-      margin-top:24px;
-      color:#475569;
-      font-size:.95rem;
-      text-align:center;
-    }
+.file-group{
+  background:#fff;
+  border:1px solid rgba(6,21,33,0.06);
+  border-radius:8px;
+  padding:14px;
+}
+
+.file-group .file{
+  display:inline-block;
+  margin-right:10px;
+  margin-top:6px;
+}
+
+.footer-note{
+  margin-top:24px;
+  color:#475569;
+  font-size:.95rem;
+  text-align:center;
+}
   </style>
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-BCNJRNH349"></script>
@@ -111,9 +124,33 @@
   </p>
 
   <nav class="links" aria-label="Downloads">
-    <a class="file" href="mental-game-printable-tracker.pdf" download>
-      Download: Printable Tracker PDF
+
+  <div class="file-group">
+
+    <strong style="font-size:1.05rem;">Printable Tracking Sheet</strong><br>
+
+    <span style="color:#64748b;font-size:.92rem;">
+      Print as many copies as you need.
+    </span>
+
+    <br><br>
+
+    <a
+      class="file"
+      href="mental-game-printable-tracker.pdf"
+      target="_blank"
+      rel="noopener">
+      View PDF
     </a>
+
+    <a
+      class="file"
+      href="mental-game-printable-tracker.pdf"
+      download>
+      Download PDF
+    </a>
+
+  </div>
 
     <a class="file" href="https://docs.google.com/spreadsheets/d/1gyA4p8bzfzj1vpdD1UFG19A35NPyIiypi_9PXAdfJjw/copy" target="_blank" rel="noopener">
       Make Your Own Copy of the Digital Tracking Sheet
